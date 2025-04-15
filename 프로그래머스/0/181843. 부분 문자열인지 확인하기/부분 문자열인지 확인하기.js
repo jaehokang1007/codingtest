@@ -1,5 +1,4 @@
 function solution(my_string, target) {
-    var answer = 0;
-    if (my_string.includes(target)) answer = 1;
+    var answer = my_string.includes(target) ? 1 : 0;
     return answer;
 }
